@@ -20,12 +20,16 @@ header {
 
 .hero {
     background: rgba(0, 0, 0, 0.6); /* Semi-transparent background for hero section */
-    padding: 50px;
-    text-align: center;
     min-height: 100vh; /* Full viewport height for the hero section */
     display: flex; /* Use flexbox to center content */
     flex-direction: column; /* Stack items vertically */
     justify-content: center; /* Center items vertically */
+    align-items: center; /* Center items horizontally */
+    text-align: center; /* Center text */
+}
+
+h2 {
+    margin: 10px 0; /* Space around subtitle */
 }
 
 .button-container {
@@ -33,18 +37,20 @@ header {
 }
 
 .btn {
-    background: #4CAF50; /* Button color */
+    background: transparent; /* Transparent background */
     color: white; /* Button text color */
+    border: 2px solid white; /* White border for the button */
     padding: 15px 25px; /* Button padding */
     text-decoration: none; /* Remove underline */
     border-radius: 5px; /* Rounded corners */
     margin: 10px; /* Space between buttons */
     display: inline-block; /* Display buttons inline */
-    transition: background 0.3s; /* Smooth background change */
+    transition: background 0.3s, color 0.3s; /* Smooth background and text color change */
 }
 
 .btn:hover {
-    background: #45a049; /* Darker button color on hover */
+    background: white; /* Change background on hover */
+    color: black; /* Change text color on hover */
 }
 
 footer {
