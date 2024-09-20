@@ -20,7 +20,7 @@ header {
     text-align: center;
     color: white; /* Adjust text color for visibility */
     padding: 50px 0; /* Space for the header */
-    background: url('ClearViewFinalLogo.png') no-repeat center center; /* Set your image URL */
+    background: url('https://github.com/clearviewva/clearviewva.github.io/blob/main/ClearViewFinalLogo.png?raw=true') no-repeat center center; /* Set your image URL */
     background-size: cover; /* Cover the entire header */
 }
 
@@ -65,7 +65,7 @@ nav ul li a {
 }
 
 .btn {
-    background: #4CAF50;
+    background: #8fd8ff;
     color: white;
     padding: 10px 20px;
     text-decoration: none;
