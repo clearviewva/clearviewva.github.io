@@ -4,7 +4,7 @@ html, body {
 }
 
 body {
-    font-family: Arial, sans-serif;
+    font-family: NeueMachina-Regular, sans-serif;
     background-image: url('background.PNG'); /* Change this to your image path */
     background-size: cover; /* Ensure the image covers the entire background */
     background-position: center; /* Center the background image */
