@@ -4,12 +4,20 @@ html, body {
 }
 
 body {
-    font-family: NeueMachina-Regular, sans-serif;
+    font-family: 'NeueMachina', sans-serif;
     background-image: url('background.PNG'); /* Change this to your image path */
     background-size: cover; /* Ensure the image covers the entire background */
     background-position: center; /* Center the background image */
     background-repeat: no-repeat; /* Prevent the image from repeating */
     color: white; /* Default text color */
+}
+@font-face {
+    font-family: 'NeueMachina';
+    src: url('NeueMachina-Regular.otf') format('woff2'),
+         url('NeueMachina-Regular.otf') format('woff'),
+         url('NeueMachina-Regular.otf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
 }
 
 header {
