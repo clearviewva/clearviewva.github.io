@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Schedule a Service - ClearView Home Services</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Schedule Your Service</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="schedule.html">Schedule</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>Book a Service</h2>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" required>
+                
+                <label for="date">Date:</label>
+                <input type="date" id="date" required>
+                
+                <label for="service">Select Service:</label>
+                <select id="service" required>
+                    <option value="cleaning">Cleaning</option>
+                    <option value="plumbing">Plumbing</option>
+                    <option value="electrical">Electrical</option>
+                </select>
+                
+                <button type="submit">Schedule</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 ClearView Home Services</p>
+    </footer>
+</body>
+</html>
